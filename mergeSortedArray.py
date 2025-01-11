@@ -10,7 +10,7 @@ def merge(nums1, m, nums2, n):
 
     while n > 0:
         # max(nums1) < max(nums2)
-        if nums1[p1] <= nums2[p3] and p1 > 0:
+        if nums1[p1] <= nums2[p3] and p1 >= 0:
             nums1[p2] = nums2[p3]
             p3 = p3 - 1
             p2 = p2 - 1
