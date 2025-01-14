@@ -1,6 +1,6 @@
 def removeDuplicates(nums):
     if len(nums) == 1:
-        return nums
+        return 1
     p1 = 0
     p2 = 0
     size = len(nums) - 1
