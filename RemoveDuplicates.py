@@ -21,7 +21,8 @@ def removeDuplicates(nums):
                 p1 += 1
                 p2 += 1
                 n += 1
+                k += 1
     return k
 
 
-print(type(removeDuplicates([0, 0, 1, 1, 2, 2, 3, 3, 4])))
+print(removeDuplicates([1, 2]))
