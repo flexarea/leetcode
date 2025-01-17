@@ -3,34 +3,29 @@ def removeDuplicates(nums):
     prev = 0
     k = 0
     identical = True
-    for i in range(len(nums)-1):
-        c0 = 1
-        for j in range(len(nums) - 2):
+    c0 = 1
+    for i in range(len(nums)):
+        if nums[i] == nums[prev]:
+            if c0 < 3:
+                c0 += 1
+                k += 1
+                break
+        for j in range(i+1, len(nums)):
             rep = 0
-            if nums[j+1] == nums[prev] and identical:
-                if c0 < 3:
-                    c0 += 1
-                    k += 1
-                else:
-                    identical = False
-            else:
-                if nums[j+1] != nums[prev]:
-                    if rep:  # check if we are already checking for a specific number
-                        # check if number we currently at is equal to number we are looking for
-                        if nums[j+1] == rep:
-                            if c0 < 3:
-                                nums[i] = nums[rep]
-                                c0 += 1
-                                k += 1
-                            else:
-                                identical = False
-                                prev = left_pointer
-                        else:
-                            # restart on new number
+            if nums[j+1] != nums[prev]:
+                if rep:  # check if we are already checking for a specific number
+                    if nums[j+1] == rep:
+                        if c0 < 3:
+                            nums[i] = nums[rep]
+                            c0 += 1
                             k += 1
+                        else:
+                            prev = left_pointer
                     else:
-                        rep = j+1
-                        c += 1
+                        k += 1
+                else:
+                    rep = j+1
+                    c += 1
 
 
 print(removeDuplicates([0, 0, 1, 1, 1, 1, 2, 3, 3]))
