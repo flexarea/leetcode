@@ -34,7 +34,7 @@
       <td>Remove Duplicates from Sorted Array</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Remove Duplicates from Sorted Array II</td>
