@@ -38,6 +38,14 @@ class Tree:
         else:
             return f"Found={self.value}"
 
+    def traversal(self):
+        if self.isEmpty():
+            return
+
+        self.left.traversal()
+        print(self.value)
+        self.right.traversal()
+
     def __str__(self):
         if self.value == None:
             return f"None"
@@ -47,4 +55,7 @@ class Tree:
 x = Tree(10)
 x.insertNode(4)
 x.insertNode(12)
-print(x.findNode(4))
+# print(x.findNode(4))
+
+# ---------------- Traversal
+x.traversal()
