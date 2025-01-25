@@ -1,36 +1,33 @@
 class Tree:
     def __init__(self, val=None):
         self.value = val
-        if self.value != None:
+
+        if self.value:
             self.left = Tree()
             self.right = Tree()
         else:
             self.left = None
             self.right = None
 
-    def isEmpty(self):
+    def isEmpty(self, val):
         return (self.value == None)
 
     def insertNode(self, val):
-        if self.isEmpty():
+        if self.isEmpty(self.value):
             self.value = val
-            self.left = Tree()
-            self.right = Tree()
+        elif val < self.value:
+            self.left.insertNode(val)
+        elif val > self.value:
+            self.right.insertNode(val)
         else:
-            if val < self.value:
-                self.left.insertNode(val)
-            elif val > self.value:
-                self.right.insertNode(val)
-            else:
-                return
+            return
 
     def __str__(self):
-        if self.isEmpty():
-            return "Empty Tree"
-        return f"Root={self.value} left={self.left.value} right={self.right.value}"
+        if self.value == None:
+            return f"None"
+        return f"root={self.value} left={self.left.value} right={self.right.value}"
 
 
-x = Tree(40)
-x.insertNode(10)
-x.insertNode(20)
+x = Tree(10)
+x.insertNode(4)
 print(x)
