@@ -212,7 +212,7 @@
       <td>Longest Substring Without Repeating Characters</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Substring with Concatenation of All Words</td>
