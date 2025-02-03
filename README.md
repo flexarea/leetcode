@@ -52,7 +52,7 @@
       <td>Rotate Array</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Best Time to Buy and Sell Stock</td>
