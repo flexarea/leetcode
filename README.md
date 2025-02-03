@@ -40,7 +40,7 @@
       <td>Remove Duplicates from Sorted Array II</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Majority Element</td>
