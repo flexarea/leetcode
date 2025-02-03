@@ -46,7 +46,7 @@
       <td>Majority Element</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Rotate Array</td>
