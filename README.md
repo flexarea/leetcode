@@ -64,7 +64,7 @@
       <td>Best Time to Buy and Sell Stock II</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Jump Game</td>
