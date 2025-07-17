@@ -82,7 +82,7 @@
       <td>H-Index</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Insert Delete GetRandom O(1)</td>
