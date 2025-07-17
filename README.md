@@ -76,7 +76,7 @@
       <td>Jump Game II</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>H-Index</td>
