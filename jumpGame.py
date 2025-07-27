@@ -10,3 +10,4 @@ class Solution(object):
             if i + nums[i] >= target:
                 target = i
         return True if target == 0 else False
+
