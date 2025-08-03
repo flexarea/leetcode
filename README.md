@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-12%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-14%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -294,7 +294,7 @@
       <td>Group Anagrams</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Two Sum</td>
