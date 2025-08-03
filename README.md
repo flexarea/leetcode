@@ -288,7 +288,7 @@
       <td>Valid Anagram</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Group Anagrams</td>
