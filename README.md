@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-14%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-15%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -94,7 +94,7 @@
       <td>Product of Array Except Self</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Gas Station</td>
