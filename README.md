@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-15%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-16%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -318,7 +318,7 @@
       <td>Longest Consecutive Sequence</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td colspan="4" align="center">
