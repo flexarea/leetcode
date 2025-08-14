@@ -8,13 +8,12 @@ def lengthOfLongestSubstring(s):
     while ptr2 < len(s):
         if s[ptr2] not in seen:
             seen.add(s[ptr2])
-            curr_len += 1
+            res = max(res, ptr2 - ptr1 + 1)
             ptr2 += 1
         else:
-            res = max(res, curr_len)
-            curr_len = 1
             seen.remove(s[ptr2])
-            ptr1 +=
+            ptr1 += 1
+    return res
 
 
 print(lengthOfLongestSubstring("abcabcbb"))
