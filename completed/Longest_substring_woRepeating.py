@@ -1,6 +1,5 @@
 def lengthOfLongestSubstring(s):
     res = 0
-    curr_len = 0
     seen = set()
     ptr1 = 0
     ptr2 = 0
@@ -11,7 +10,7 @@ def lengthOfLongestSubstring(s):
             res = max(res, ptr2 - ptr1 + 1)
             ptr2 += 1
         else:
-            seen.remove(s[ptr2])
+            seen.remove(s[ptr1])
             ptr1 += 1
     return res
 
