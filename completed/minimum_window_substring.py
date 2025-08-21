@@ -28,7 +28,6 @@ def minWindow(s, t):
         min_substr = s[left:m]
         min_found_flag = 1
 
-    print(dic_s)
     for right in range(m, n):
         dic_s[s[right]] = dic_s.get(s[right], 0) + 1
         print(dic_s)
