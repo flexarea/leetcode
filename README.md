@@ -19,7 +19,7 @@
       </td>
     </tr>
     <tr>
-      <td>Merge Sorted Array</td>
+      <td>Merge Sorted Array.</td>
       <td>Easy</td>
       <td>🟢</td>
       <td>✅</td>
