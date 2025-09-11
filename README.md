@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-18%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-19%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -785,7 +785,7 @@
       <td>Search a 2D Matrix</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Find Peak Element</td>
