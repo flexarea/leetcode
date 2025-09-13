@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-19%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-20%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -797,7 +797,7 @@
       <td>Search in Rotated Sorted Array</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Find First and Last Position of Element in Sorted Array</td>
