@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-20%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-21%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -464,7 +464,7 @@
       <td>Maximum Depth of Binary Tree</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Same Tree</td>
