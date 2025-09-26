@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-22%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-23%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -476,7 +476,7 @@
       <td>Invert Binary Tree</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Symmetric Tree</td>
