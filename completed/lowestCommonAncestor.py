@@ -8,3 +8,8 @@ class Solution:
                 cur = cur.right
             else:
                 return cur
+
+
+"""
+If p and q are on opposite sides of curr, then curr is the first node from the top where their paths diverge. By definition, this is the lowest common ancestor.
+"""
