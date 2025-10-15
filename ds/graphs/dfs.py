@@ -53,6 +53,3 @@ def dfs_stack(source):
             if neighbor not in seen:
                 seen.add(neighbor)
                 stack.append(neighbor)
-
-
-dfs_stack(source)
