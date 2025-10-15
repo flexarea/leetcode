@@ -53,3 +53,42 @@ def dfs_stack(source):
             if neighbor not in seen:
                 seen.add(neighbor)
                 stack.append(neighbor)
+
+# a version of dfs without using a visited array and iterating on an adj matrix
+
+
+def dfs_stack_no_set(adj_matrix):
+    visited = [False] * n
+    visited[0] = True
+
+    stack = [0]
+
+    while stack:  # while there are still vertices to visit in the stack
+        curr = stack.pop()  # here we don't care about order
+        print(curr)
+
+        for neighbor in range(n):
+            if m[curr][neighbor]:
+                if not visited[neighbor]:
+                    visited[neighbor] = True
+                    stack.append(neighbor)
+
+
+def bfs_queue(adj_matrix):
+    from collections import deque
+    visited = [False] * n
+    visited[0] = True
+    q = deque()
+    q.append(0)
+
+    while q:  # while we stll have elements in the queue
+        curr = q.popleft()  # pop first entry to visit it
+        print(curr)
+
+        for neighbor in range(n):
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                q.append(neighbor)
+
+
+bfs_queue(m)
