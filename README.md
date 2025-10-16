@@ -1,6 +1,6 @@
 <p>
 <h2>Questions List <img 
-    src="https://img.shields.io/badge/Progress-26%2F150-0078D4" 
+    src="https://img.shields.io/badge/Progress-27%2F150-0078D4" 
     alt="Progress bar"
   /></h2>
 <table>
@@ -136,7 +136,7 @@
       <td>Longest Common Prefix</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Reverse Words in a String</td>
