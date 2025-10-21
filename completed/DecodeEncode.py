@@ -24,3 +24,21 @@ strs = ["Hello", "World"]
 new_encoder = Code().encode(strs)
 encoded_str = Code().decode(new_encoder)
 print(encoded_str)
+
+# I don't even understand how I come up with complicated implementation
+
+
+class Codec:
+    def encode(self, strs: List[str]) -> str:
+        """Encodes a list of strings to a single string.
+        """
+        return strs[::-1]
+
+    def decode(self, s: str) -> List[str]:
+        """Decodes a single string to a list of strings.
+        """
+        return s[::-1]
+
+# Your Codec object will be instantiated and called as such:
+# codec = Codec()
+# codec.decode(codec.encode(strs))
