@@ -1,19 +1,16 @@
-def lengthOfLongestSubstring(s):
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        window = set()
+        curr_max = 0
+        count = 0
+        left, right = 0, 0
 
-    if len(s) < 1:
-        return 0
-    n = len(s)
-
-    window = ""
-    longest_substring = ""
-
-    for i in range(n):
-        if s[i] in window:
-            window = window[window.index(s[i]) + 1:]
-        window += s[i]
-        if len(window) > len(longest_substring):
-            longest_substring = window
-    return len(longest_substring)
-
-
-print(lengthOfLongestSubstring(" "))
+        while right < len(s):
+            if s[right] not in window:
+                window.add(s[right])
+                curr_max = max(curr_max, right - left + 1)
+                right += 1
+            else:
+                window.remove(s[left])
+                left += 1
+        return max(count, curr_max)
