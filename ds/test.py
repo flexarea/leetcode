@@ -1,18 +1,29 @@
-"""
-Example: Given an array of distinct integer values, count the number of pairs of integers that
-have difference k. For example, given the array { 1, 7, 5, 9, 2, 12, 3} and the difference
-k = 2,there are four pairs with difference2: (1, 3), (3, 5), (5, 7), (7, 9).
-"""
+from collections import defaultdict, deque
+
+n = 8
+a = [(0, 1), (0, 3), (1, 2),
+     (3, 4), (3, 7), (3, 6), (4, 2), (4, 5), (5, 2)]
+
+# matrix
+m = [[0]*n for _ in range(n)]
+
+for u, v in a:
+    m[u][v] = 1
+
+# 1. Depth First Search
 
 
-def fn(arr, k):
-    seen = {val for val in arr}
-    res = []
+def dfs(matrix):
+    seen = set()
+    seen.add(0)
 
-    for val in seen:
-        if (val+k) in seen:
-            res.append((val, val+k))
-    return res
+    stack = [0]
 
-
-print(fn([1, 7, 5, 9, 2, 12, 3], 2))
+    while stack:
+        curr = stack.pop()
+        print(curr)
+        for neighbor in range(n):
+            if m[curr][neighbor]:
+                if neighbor not in seen:
+                    stack.append(neighbor)
+                    seen.add(neighbor)

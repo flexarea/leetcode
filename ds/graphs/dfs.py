@@ -1,5 +1,5 @@
 # directed graph
-from collections import defaultdict
+from collections import defaultdict, deque
 a = [(0, 1), (0, 3), (1, 2),
      (3, 4), (3, 7), (3, 6), (4, 2), (4, 5), (5, 2)]
 
@@ -75,7 +75,6 @@ def dfs_stack_no_set(adj_matrix):
 
 
 def bfs_queue(adj_matrix):
-    from collections import deque
     visited = [False] * n
     visited[0] = True
     q = deque()
