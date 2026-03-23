@@ -599,7 +599,7 @@
       <td>Number of Islands</td>
       <td>Medium</td>
       <td>🟡</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Surrounded Regions</td>
