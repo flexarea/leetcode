@@ -405,7 +405,7 @@
       <td>Merge Two Sorted Lists</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Copy List with Random Pointer</td>
