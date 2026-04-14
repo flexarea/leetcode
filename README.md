@@ -393,7 +393,7 @@
       <td>Linked List Cycle</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Add Two Numbers</td>
