@@ -358,7 +358,7 @@
       <td>Valid Parentheses</td>
       <td>Easy</td>
       <td>🟢</td>
-      <td></td>
+      <td>✅</td>
     </tr>
     <tr>
       <td>Simplify Path</td>
